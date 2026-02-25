@@ -49,7 +49,7 @@ fetch(endpoint)
 
                         <div class="card-body">
                         <p class="card-text">${date}</p>
-                        <h1 class="card-title fw-bold">${title}</h1>
+                        <h1 class="card-title fw-bold">${title.toUpperCase()}</h1>
                         </div>
                     </div>
                 </div>
