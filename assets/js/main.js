@@ -42,7 +42,7 @@ fetch(endpoint)
             // create the marckup
             const marckup = `
                 <div class="col">
-                    <div class="card">
+                    <div class="card mt-3">
                         <img class="pin" src="./assets/img/pin.svg" alt="">
 
                         <img src="${url}" class="card-img-top" alt="...">
