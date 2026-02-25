@@ -3,22 +3,56 @@
 
 
 body {
-  font-family: "Edu TAS Beginner", cursive;
+    font-family: "Edu TAS Beginner", cursive;
 }
 
 
-/* Header */
+/* #region Header */
+
 header {
     background-image: url(/assets/img/wall.png);
+    background-size: cover;
+    background-position: center;
+
 }
 
 #header_title {
-    font-size: 50px;
+    font-size: 100px;
 }
 
+/* Mobile */
+@media (max-width: 767px) {
+    #header_title {
+        font-size: 70px;
+    }
+}
+
+/* #endregion Header */
 
 
-/* Main */
+/* #region Main */
 main {
     background-image: url(/assets/img/cork.png);
 }
+
+
+.card {
+    padding: 10px;
+    background-color: white;
+
+
+    .card-img-top {
+        border: 8px solid white;
+    }
+
+    .pin {
+        position: absolute;
+        top: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40px;
+        z-index: 10;
+    }
+}
+
+/* #endregion Main */
