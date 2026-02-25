@@ -1,0 +1,24 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&display=swap');
+
+
+body {
+  font-family: "Edu TAS Beginner", cursive;
+}
+
+
+/* Header */
+header {
+    background-image: url(/assets/img/wall.png);
+}
+
+#header_title {
+    font-size: 50px;
+}
+
+
+
+/* Main */
+main {
+    background-image: url(/assets/img/cork.png);
+}
