@@ -7,7 +7,7 @@
         <img src="https://marcolanci.it/boolean/assets/pictures/1.png" class="card-img-top" alt="...">
 
         <div class="card-body">
-            <p class="card-text">date</p>
+            <p class="card-text text-secondary">date</p>
             <h2 class="card-title fw-bold">Title</h2>
         </div>
     </div>
@@ -48,8 +48,8 @@ fetch(endpoint)
                         <img src="${url}" class="card-img-top" alt="...">
 
                         <div class="card-body">
-                        <p class="card-text">${date}</p>
-                        <h1 class="card-title fw-bold">${title.toUpperCase()}</h1>
+                        <p class="card-text text-secondary">${date}</p>
+                        <h2 class="card-title fw-bold">${title.toUpperCase()}</h2>
                         </div>
                     </div>
                 </div>
