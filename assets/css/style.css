@@ -1,6 +1,8 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
 
 body {
     font-family: "Edu TAS Beginner", cursive;
@@ -53,6 +55,16 @@ main {
         width: 40px;
         z-index: 10;
     }
+
+    .card-text {
+        margin-bottom: 2px;
+        font-family: "Sometype Mono", monospace;
+    }
+
+    .card-title {
+        margin-bottom: 0;
+    }
 }
+
 
 /* #endregion Main */
