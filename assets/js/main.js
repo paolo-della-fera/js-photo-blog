@@ -21,13 +21,16 @@
 // take the API and save in a variable 
 const endpoint = 'https://lanciweb.github.io/demo/api/pictures/'
 
-
 // take the DOM node 
 const rowEl = document.querySelector('.row');
 // console.log(endpoint, rowEl);
+const overlayEd = document.getElementById('overlay')
+const buttonEl = document.getElementById('closeBtn')
+const imgEl = document.getElementById('overlayImg')
 
 
 
+// photo cards 
 
 fetch(endpoint)
     .then(res => res.json())
@@ -58,4 +61,21 @@ fetch(endpoint)
             // print all in page
             rowEl.innerHTML += marckup
         });
+
+
+        // overlay 
+        const images = document.querySelectorAll('.card-img-top')
+    
+        images.forEach(img => {
+            img.addEventListener("click", function () {
+                overlayEd.style.display = "flex";
+            });
+        });
+    
+        buttonEl.addEventListener("click", function () {
+            overlayEd.style.display = "none";
+        });
     })
+
+
+
