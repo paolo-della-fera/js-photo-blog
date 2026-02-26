@@ -77,6 +77,3 @@ fetch(endpoint)
             overlayEd.style.display = "none";
         });
     })
-
-
-
