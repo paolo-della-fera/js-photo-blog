@@ -69,6 +69,7 @@ fetch(endpoint)
         images.forEach(img => {
             img.addEventListener("click", function () {
                 overlayEd.style.display = "flex";
+                imgEl.src = this.src;
             });
         });
     
