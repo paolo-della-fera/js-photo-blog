@@ -83,6 +83,17 @@ main {
     align-items: center;
     z-index: 2;
     display: none;
+
+
+    #closeBtn {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 30px;
+        background: none;
+        border: none;
+        color: white;
+    }
 }
 
 /* #endregion Overlay */
